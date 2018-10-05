@@ -1,11 +1,7 @@
 def my_hash
   # use the literal constructor to set the variable, my_hash, equal to a hash with key/value pairs of your choice.
     my_hash = Hash.new { |hash, key| value }
-    months = Hash.new( "month" )
-months = {"1" => "January", "2" => "February"}
-
-keys = months.keys
-puts "#{keys}"
+    my_hash = 
   
 end
 
